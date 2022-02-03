@@ -11,3 +11,4 @@ ___
 ##### disconnect() - Stops the MutationObserver instance from receiving further notifications until and unless observe() is called again.
 ##### observe() - Configures the MutationObserver to begin receiving notifications through its callback function when DOM changes matching the given options occur.
 ##### takeRecords() - Removes all pending notifications from the MutationObserver's notification queue and returns them in a new Array of MutationRecord objects.
+##### subtree option observers changes on all elements inside of an observed element
