@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutation Observer</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div id="parent">
+    <h1>Mutation Observer</h1>
+
+    <div id="parent" class="parent">
         <div class="child" contenteditable>Child 1</div>
         <div class="child" contenteditable>Child 2</div>
         <div class="child" contenteditable>Child 3</div>
     </div>
+
+    <h3>Notes:</h3>
+    <h4>To create Mutation Observer - new MutationObserver(). Mutation observer takes in one single argument - new MutationObserver(entries). This argument is a function that is going to be called every single time Mutation Observer observes some time of mutation in the DOM based on some criteria we define</h4>
+    <h4>To tell the Observer what to observe we use observe function .observe() which takes in 2 parameters. 1st, the thing we want to observe, and the 2nd all the options for that.</h4>
+    <h4>To stop observing we call .disconect() function and no longer look for DOM changes</h4>
     
 </body>
 </html>
