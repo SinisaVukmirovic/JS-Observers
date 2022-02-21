@@ -12,3 +12,16 @@ ___
 ##### observe() - Configures the MutationObserver to begin receiving notifications through its callback function when DOM changes matching the given options occur.
 ##### takeRecords() - Removes all pending notifications from the MutationObserver's notification queue and returns them in a new Array of MutationRecord objects.
 ##### subtree option observers changes on all elements inside of an observed element
+
+___
+
+## Resize Observer
+### The ResizeObserver interface reports changes to the dimensions of an Element's content or border box, or the bounding box of an SVGElement.
+
+#### Constructor - ResizeObserver()
+##### Creates and returns a new ResizeObserver object.
+
+#### Methods
+##### disconnect() - Unobserves all observed Element targets of a particular observer.
+##### observe() - Initiates the observing of a specified Element.
+##### unobserve() - Ends the observing of a specified Element.
