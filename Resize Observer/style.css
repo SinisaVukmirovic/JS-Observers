@@ -1,0 +1,27 @@
+body {
+    background-color: #333;
+    color: #eee;
+    font-family: sans-serif;
+    padding: 2rem 10%;
+}
+
+.container {
+    width: 100%;
+    min-height: 20rem;
+    display: flex;
+}
+
+.rect {
+    margin: .5rem;
+    padding: 1.5rem;
+    border: 2px solid #eee;
+}
+
+.box {
+    width: 70%;
+    background-color: crimson;
+}
+
+.text {
+    font-size: 2rem;
+}
