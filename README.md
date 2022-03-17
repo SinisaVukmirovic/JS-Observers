@@ -35,4 +35,8 @@ ___
 ##### Creates and returns a new ResizeObserver object.
 
 #### Methods
-##### 
+##### observe() - observes when observed element changes intersections
+##### unobserve() - stops observing an element once it shows
+#### Options
+##### treshold: 0(default) to 1 - how much of the element (in %) is intersecting (showing). 
+##### rootMargin - how much before (-100px) or after (+100px) the end of the screen (both top and bottom) elems are observed

@@ -1,0 +1,30 @@
+body {
+    display: grid;
+    place-items: center;
+    background-color: #222;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.card {
+    background-color: crimson;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #eee;
+    border-radius: .25rem;
+    padding: 1rem;
+    opacity: 0;
+    transform: translateX(3rem);
+    transition: all .2s linear;
+}
+
+.card.show {
+    opacity: 1;
+    transform: translateX(0);
+}
