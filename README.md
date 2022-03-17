@@ -4,7 +4,7 @@ ___
 ## Mutation Observer
 ### The MutationObserver interface provides the ability to watch for changes being made to the DOM tree.
 
-#### Constructor - MutationObserver()
+#### Constructor - new MutationObserver()
 ##### Creates and returns a new MutationObserver which will invoke a specified callback function when DOM changes occur.
 
 #### Methods
@@ -18,10 +18,21 @@ ___
 ## Resize Observer
 ### The ResizeObserver interface reports changes to the dimensions of an Element's content or border box, or the bounding box of an SVGElement.
 
-#### Constructor - ResizeObserver()
+#### Constructor - new ResizeObserver()
 ##### Creates and returns a new ResizeObserver object.
 
 #### Methods
 ##### disconnect() - Unobserves all observed Element targets of a particular observer.
 ##### observe() - Initiates the observing of a specified Element.
 ##### unobserve() - Ends the observing of a specified Element.
+
+___
+
+## Intersection Observer
+### The Intersection Observer API provides a way to asynchronously observe changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.
+
+#### Constructor - new IntersectionObserver()
+##### Creates and returns a new ResizeObserver object.
+
+#### Methods
+##### 
